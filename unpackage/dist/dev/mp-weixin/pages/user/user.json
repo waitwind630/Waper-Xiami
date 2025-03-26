@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "user-toplist": "../../components/user-toplist/user-toplist",
+    "user-underlist": "../../components/user-underlist/user-underlist"
+  }
+}

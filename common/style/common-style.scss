@@ -1,0 +1,32 @@
+view,swiper,swiper-item{
+	//box-sizing: border-box; 是CSS中一个非常有用的属性设置，
+	//它改变了元素的默认盒模型行为。通常情况下，当您为元素指定宽度和高度时
+	//，默认的盒模型（即 content-box）只会将宽度和高度应用于内容区域，
+	//而内边距（padding）和边框（border）会额外增加到指定的宽度和高度上。
+
+ 
+     //但是，当您使用 box-sizing: border-box; 时，
+	//元素的宽度和高度包括了内边距和边框。这意味着无论内边距或边框有多大，
+	//元素的总宽度和高度都不会超过您所设定的值。这对于创建复杂的布局特别有帮助，
+	//因为它可以确保即使在不同的浏览器中，元素的尺寸也更加一致。
+
+	box-sizing: border-box;
+	
+	
+}
+.pageBg{
+	background: 
+	linear-gradient(to bottom,transparent,#fff 400rpx),
+	linear-gradient(to right, #e6e6fa 20%, #ffc0cb, #add8e6);
+
+	
+	min-height: 80vh;
+	// 100vh 表示这个最小高度是视口（viewport）高度的 100%。
+	//视口高度是指浏览器窗口的内部高度，不包括工具栏和标签栏。
+    //使用 min-height: 100vh;
+	//可以确保元素的高度至少和浏览器窗口的高度一样，
+	//即使内容不足以填满整个视口。这在创建全屏布局时非常有用，可以确保元素至少覆盖整个屏幕的高度，即使内容不足以填满整个屏幕。
+}
+.LoadLayout{
+	padding: 30rpx 0;
+}

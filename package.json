@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "pinia": "^3.0.0"
+  }
+}
